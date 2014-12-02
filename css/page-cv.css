@@ -2661,11 +2661,21 @@ body.page-template-page-cv-php {
   background: #F3F3F3; }
 
 .cv__wrapper {
-  max-width: 1024px;
+  max-width: 960px;
   padding: 0 5%;
   margin: 0 auto;
   background: #FFFFFF;
   color: #333; }
+  .cv__wrapper .baskerville--em {
+    font-family: 'libre_baskervilleitalic', times, serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 0em; }
+  .cv__wrapper .aller--em {
+    font-family: 'aller_lightitalic', arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 0em; }
   .cv__wrapper a {
     color: #333;
     font-size: inherit; }

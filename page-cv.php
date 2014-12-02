@@ -27,7 +27,7 @@ Description: A Page Template which emulates my resume.
 	<div class="cv__wrapper">
 		<header class="cv__header">
 			<h1 class="cv__name cv__title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Paul Craig</a></h1>
-			<h2 class="cv__description color__red">would be thrilled to code on a somewhat professional basis</h2>
+			<h2 class="cv__description color__red">would be <span class="baskerville--em">thrilled</span> to help you help me help others</h2>
 			<div class="clearer"></div>
 
 		</header><!-- end of .cv__header -->
@@ -58,10 +58,10 @@ Description: A Page Template which emulates my resume.
 
 					<h5 class="job_description__title">Web Developer</h5>
 					<h6 class="job_description__employer"><a class="pseudo_href" href="http://westernusc.ca">Western University Students’ Council</a></h6>
-					<p class="job_description__body">Commandeered a revitalization of the student government’s web presence</p>
+					<p class="job_description__body">Revitalized the web presence of the student government</p>
 					<p class="job_description__body">Prioritized the findings of user-centred research</p>
-					<p class="job_description__body">Implemented, open-sourced, and extensively documented solutions</p>
-					<p class="job_description__body">Incorporated several third-party APIs supplemented with clever data caching</p>
+					<p class="job_description__body">Implemented, open-sourced, extensively documented solutions</p>
+					<p class="job_description__body">Incorporated third-party APIs supplemented with clever data caching</p>
 				
 					</div><!--
 
@@ -121,7 +121,7 @@ Description: A Page Template which emulates my resume.
 				--><div class="layout__item four-fifths">
 
 					<h5 class="job_description__title"><a href="http://www.fims.uwo.ca">Media, Information and Technoculture (MIT)</a></h5>
-					<p class="job_description__body">Learned to communicate capably and professionally without losing my soul</p>
+					<p class="job_description__body">Learned to communicate professionally without expunging myself</p>
 					<p class="job_description__body">Critically analyzed bloody everything</p>				
 					</div><!--
 
@@ -181,9 +181,9 @@ Description: A Page Template which emulates my resume.
 			--><div class="layout__item two-fifths">
 			<p class="job_description__body">PHP</p>
 			<p class="job_description__body">HTML / Twig</p>
-			<p class="job_description__body">SQL / Doctrine</p>
+			<p class="job_description__body">Java</p>
 			<p class="job_description__body">C / C++</p>
-			<p class="job_description__body">Version Control</p>
+			<p class="job_description__body">git / GitHub</p>
 			<p class="job_description__body">CLIs</p>
 			<p class="job_description__body">etc.</p>
 
@@ -191,8 +191,8 @@ Description: A Page Template which emulates my resume.
 			--><div class="layout__item three-fifths">
 			<p class="job_description__body">WordPress</p>
 			<p class="job_description__body">CSS / SCSS</p>
-			<p class="job_description__body">Java</p>
-			<p class="job_description__body">JavaScript / JQuery</p>
+			<p class="job_description__body">JavaScript / jQuery</p>
+			<p class="job_description__body">SQL / Doctrine</p>
 			<p class="job_description__body">Package Managing</p>
 			<p class="job_description__body">MVC Frameworks</p>
 			</div><!--
@@ -211,8 +211,7 @@ Description: A Page Template which emulates my resume.
 			<p class="job_description__body">construct / maintain software</p>
 			<p class="job_description__body">deliver presentations on either</p>
 			<p class="job_description__body">work as part of a team</p>
-			<p class="job_description__body">identify problems: technical or political</p>
-			<p class="job_description__body">articulate myself perspicuously</p>
+			<p class="job_description__body">identify tech / political problems</p>
 
 			</div><!--
 

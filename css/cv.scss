@@ -15,10 +15,18 @@ body.page-template-page-cv-php {
 
 .cv__wrapper {
 
-	max-width: 1024px;
+	max-width: 960px;
 	padding: 0 5%;
 	margin: 0 auto;
 	background: #FFFFFF;
+
+	.baskerville--em {
+		@include Baskerville-Italic;
+	}
+
+	.aller--em {
+		@include Aller-Light-Italic;
+	}
 
 	color: $color__grey--dark;
 
