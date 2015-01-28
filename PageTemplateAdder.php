@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * HEAVILY INFLUENCED BY 
+ * @see http://www.wpexplorer.com/wordpress-page-templates-plugin/
+ */
 class PageTemplateAdder {
 
 	/**
@@ -140,6 +143,12 @@ class PageTemplateAdder {
         public function view_project_template( $template ) {
 
                 global $post;
+
+                /* On search pages, for example, there may be no $post object */
+                if( is_null( $post ) ) {
+
+                        return $template;
+                }
 
                 if (!isset($this->templates[get_post_meta( 
 					$post->ID, '_wp_page_template', true 
