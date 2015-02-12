@@ -1,5 +1,5 @@
 /*  Mixin found here: codepen.io/javasteve99/pen/hDxpn */
-@mixin font-face($font-family, $file-path, $font-weight, $font-style, $file-path-prefix:"css/fonts/") {
+@mixin font-face($font-family, $file-path, $font-weight, $font-style, $file-path-prefix:"fonts/") {
 
 	$file-path: $file-path-prefix + $file-path;
 

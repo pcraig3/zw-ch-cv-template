@@ -2569,94 +2569,94 @@ html {
 /*  Mixin found here: codepen.io/javasteve99/pen/hDxpn */
 @font-face {
   font-family: libre_baskervilleitalic;
-  src: url("css/fonts/librebaskerville-italic-webfont.eot");
-  src: url("css/fonts/librebaskerville-italic-webfont.eot?#iefix") format("embedded-opentype"), url("css/fonts/librebaskerville-italic-webfont.woff") format("woff"), url("css/fonts/librebaskerville-italic-webfont.ttf") format("truetype"), url("css/fonts/librebaskerville-italic-webfont.svg#libre_baskervilleitalic") format("svg");
+  src: url("fonts/librebaskerville-italic-webfont.eot");
+  src: url("fonts/librebaskerville-italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/librebaskerville-italic-webfont.woff") format("woff"), url("fonts/librebaskerville-italic-webfont.ttf") format("truetype"), url("fonts/librebaskerville-italic-webfont.svg#libre_baskervilleitalic") format("svg");
   font-weight: 400;
   font-style: normal; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: libre_baskervilleitalic;
-    src: url("css/fonts/librebaskerville-italic-webfont.svg#libre_baskervilleitalic") format("svg"); } }
+    src: url("fonts/librebaskerville-italic-webfont.svg#libre_baskervilleitalic") format("svg"); } }
 @font-face {
   font-family: libre_baskervilleregular;
-  src: url("css/fonts/librebaskerville-regular-webfont.eot");
-  src: url("css/fonts/librebaskerville-regular-webfont.eot?#iefix") format("embedded-opentype"), url("css/fonts/librebaskerville-regular-webfont.woff") format("woff"), url("css/fonts/librebaskerville-regular-webfont.ttf") format("truetype"), url("css/fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular") format("svg");
+  src: url("fonts/librebaskerville-regular-webfont.eot");
+  src: url("fonts/librebaskerville-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/librebaskerville-regular-webfont.woff") format("woff"), url("fonts/librebaskerville-regular-webfont.ttf") format("truetype"), url("fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular") format("svg");
   font-weight: 400;
   font-style: normal; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: libre_baskervilleregular;
-    src: url("css/fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular") format("svg"); } }
+    src: url("fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular") format("svg"); } }
 @font-face {
   font-family: libre_baskervillebold;
-  src: url("css/fonts/librebaskerville-bold-webfont.eot");
-  src: url("css/fonts/librebaskerville-bold-webfont.eot?#iefix") format("embedded-opentype"), url("css/fonts/librebaskerville-bold-webfont.woff") format("woff"), url("css/fonts/librebaskerville-bold-webfont.ttf") format("truetype"), url("css/fonts/librebaskerville-bold-webfont.svg#libre_baskervillebold") format("svg");
+  src: url("fonts/librebaskerville-bold-webfont.eot");
+  src: url("fonts/librebaskerville-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/librebaskerville-bold-webfont.woff") format("woff"), url("fonts/librebaskerville-bold-webfont.ttf") format("truetype"), url("fonts/librebaskerville-bold-webfont.svg#libre_baskervillebold") format("svg");
   font-weight: 400;
   font-style: normal; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: libre_baskervillebold;
-    src: url("css/fonts/librebaskerville-bold-webfont.svg#libre_baskervillebold") format("svg"); } }
+    src: url("fonts/librebaskerville-bold-webfont.svg#libre_baskervillebold") format("svg"); } }
 @font-face {
   font-family: allerregular;
-  src: url("css/fonts/aller_rg-webfont.eot");
-  src: url("css/fonts/aller_rg-webfont.eot?#iefix") format("embedded-opentype"), url("css/fonts/aller_rg-webfont.woff") format("woff"), url("css/fonts/aller_rg-webfont.ttf") format("truetype"), url("css/fonts/aller_rg-webfont.svg#allerregular") format("svg");
+  src: url("fonts/aller_rg-webfont.eot");
+  src: url("fonts/aller_rg-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/aller_rg-webfont.woff") format("woff"), url("fonts/aller_rg-webfont.ttf") format("truetype"), url("fonts/aller_rg-webfont.svg#allerregular") format("svg");
   font-weight: 400;
   font-style: normal; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: allerregular;
-    src: url("css/fonts/aller_rg-webfont.svg#allerregular") format("svg"); } }
+    src: url("fonts/aller_rg-webfont.svg#allerregular") format("svg"); } }
 @font-face {
   font-family: aller_lightregular;
-  src: url("css/fonts/aller_lt-webfont.eot");
-  src: url("css/fonts/aller_lt-webfont.eot?#iefix") format("embedded-opentype"), url("css/fonts/aller_lt-webfont.woff") format("woff"), url("css/fonts/aller_lt-webfont.ttf") format("truetype"), url("css/fonts/aller_lt-webfont.svg#aller_lightregular") format("svg");
+  src: url("fonts/aller_lt-webfont.eot");
+  src: url("fonts/aller_lt-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/aller_lt-webfont.woff") format("woff"), url("fonts/aller_lt-webfont.ttf") format("truetype"), url("fonts/aller_lt-webfont.svg#aller_lightregular") format("svg");
   font-weight: 400;
   font-style: normal; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: aller_lightregular;
-    src: url("css/fonts/aller_lt-webfont.svg#aller_lightregular") format("svg"); } }
+    src: url("fonts/aller_lt-webfont.svg#aller_lightregular") format("svg"); } }
 @font-face {
   font-family: aller_lightitalic;
-  src: url("css/fonts/aller_ltit-webfont.eot");
-  src: url("css/fonts/aller_ltit-webfont.eot?#iefix") format("embedded-opentype"), url("css/fonts/aller_ltit-webfont.woff") format("woff"), url("css/fonts/aller_ltit-webfont.ttf") format("truetype"), url("css/fonts/aller_ltit-webfont.svg#aller_lightitalic") format("svg");
+  src: url("fonts/aller_ltit-webfont.eot");
+  src: url("fonts/aller_ltit-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/aller_ltit-webfont.woff") format("woff"), url("fonts/aller_ltit-webfont.ttf") format("truetype"), url("fonts/aller_ltit-webfont.svg#aller_lightitalic") format("svg");
   font-weight: 400;
   font-style: normal; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: aller_lightitalic;
-    src: url("css/fonts/aller_ltit-webfont.svg#aller_lightitalic") format("svg"); } }
+    src: url("fonts/aller_ltit-webfont.svg#aller_lightitalic") format("svg"); } }
 @font-face {
   font-family: allerbold;
-  src: url("css/fonts/aller_bd-webfont.eot");
-  src: url("css/fonts/aller_bd-webfont.eot?#iefix") format("embedded-opentype"), url("css/fonts/aller_bd-webfont.woff") format("woff"), url("css/fonts/aller_bd-webfont.ttf") format("truetype"), url("css/fonts/aller_bd-webfont.svg#allerbold") format("svg");
+  src: url("fonts/aller_bd-webfont.eot");
+  src: url("fonts/aller_bd-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/aller_bd-webfont.woff") format("woff"), url("fonts/aller_bd-webfont.ttf") format("truetype"), url("fonts/aller_bd-webfont.svg#allerbold") format("svg");
   font-weight: 400;
   font-style: normal; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: allerbold;
-    src: url("css/fonts/aller_bd-webfont.svg#allerbold") format("svg"); } }
+    src: url("fonts/aller_bd-webfont.svg#allerbold") format("svg"); } }
 @font-face {
   font-family: alleritalic;
-  src: url("css/fonts/aller_it-webfont.eot");
-  src: url("css/fonts/aller_it-webfont.eot?#iefix") format("embedded-opentype"), url("css/fonts/aller_it-webfont.woff") format("woff"), url("css/fonts/aller_it-webfont.ttf") format("truetype"), url("css/fonts/aller_it-webfont.svg#alleritalic") format("svg");
+  src: url("fonts/aller_it-webfont.eot");
+  src: url("fonts/aller_it-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/aller_it-webfont.woff") format("woff"), url("fonts/aller_it-webfont.ttf") format("truetype"), url("fonts/aller_it-webfont.svg#alleritalic") format("svg");
   font-weight: 400;
   font-style: normal; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: alleritalic;
-    src: url("css/fonts/aller_it-webfont.svg#alleritalic") format("svg"); } }
+    src: url("fonts/aller_it-webfont.svg#alleritalic") format("svg"); } }
 @font-face {
   font-family: allerbold_italic;
-  src: url("css/fonts/aller_bdit-webfont.eot");
-  src: url("css/fonts/aller_bdit-webfont.eot?#iefix") format("embedded-opentype"), url("css/fonts/aller_bdit-webfont.woff") format("woff"), url("css/fonts/aller_bdit-webfont.ttf") format("truetype"), url("css/fonts/aller_bdit-webfont.svg#allerbold_italic") format("svg");
+  src: url("fonts/aller_bdit-webfont.eot");
+  src: url("fonts/aller_bdit-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/aller_bdit-webfont.woff") format("woff"), url("fonts/aller_bdit-webfont.ttf") format("truetype"), url("fonts/aller_bdit-webfont.svg#allerbold_italic") format("svg");
   font-weight: 400;
   font-style: normal; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: allerbold_italic;
-    src: url("css/fonts/aller_bdit-webfont.svg#allerbold_italic") format("svg"); } }
+    src: url("fonts/aller_bdit-webfont.svg#allerbold_italic") format("svg"); } }
 body.page-template-page-cv-php {
   background: #F3F3F3; }
 

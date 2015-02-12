@@ -1,5 +1,8 @@
 ## Changelog
 
+### 1.1.2
+* Had the CSS filepath wrong >.<  
+
 ### 1.1.1
 * Fixed a small bug with global $post variable
 * Credited the author of most of the code in this plugin
