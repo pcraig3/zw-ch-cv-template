@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: CV
-Description: A Page Template which emulates my resume.
+Description: A Page Template for my resume.
 */
 ?>
 <!DOCTYPE html>
