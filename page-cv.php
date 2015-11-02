@@ -58,10 +58,10 @@ Description: A Page Template for my resume.
 
 					<h5 class="job_description__title">Web Developer</h5>
 					<h6 class="job_description__employer"><a class="pseudo_href" href="http://westernusc.ca">Western University Students’ Council</a></h6>
-					<p class="job_description__body">Revitalized the web presence of the student government</p>
-					<p class="job_description__body">Prioritized the findings of user-centred research</p>
-					<p class="job_description__body">Implemented, open-sourced, extensively documented solutions</p>
-					<p class="job_description__body">Incorporated third-party APIs supplemented with clever data caching</p>
+					<p>Revitalized the web presence of the student government</p>
+					<p>Prioritized needs based on findings of user research</p>
+					<p>Coded in the open and extensively documented plugins</p>
+					<p>Incorporated third-party APIs supplemented with clever data caching</p>
 				
 					</div><!--
 
@@ -75,10 +75,10 @@ Description: A Page Template for my resume.
 
 					<h5 class="job_description__title">Technical Infrastructure Intern</h5>
 					<h6 class="job_description__employer"><a class="pseudo_href" href="http://westernusc.ca">Western University Students’ Council</a></h6>
-					<p class="job_description__body">Designed and implemented various web-based software projects</p>
-					<p class="job_description__body">Split time between front-end and back-end problems</p>
-					<p class="job_description__body">Frequent Basecamp contributor, <code>git commit</code>-er</p>
-					<p class="job_description__body">Worked always for the benefit of students at Western University</p>
+					<p>Designed and implemented various web-based software projects</p>
+					<p>Split time between front-end and back-end problems</p>
+					<p>Frequent Basecamp contributor, <code>git commit</code>-er</p>
+					<p>Worked always for the benefit of students at Western University</p>
 			</div>
 					<!--
 
@@ -87,32 +87,32 @@ Description: A Page Template for my resume.
 				--><div class="layout__item one-fifth">
 				<span class="job_description__year">2012-13</span>
 					</div><!--
-				--><div class="layout__item four-fifths">					
+				--><div class="layout__item four-fifths">
 
 					<h5 class="job_description__title">Section Editor</h5>
 					<h6 class="job_description__employer"><a class="pseudo_href" href="http://openwidezine.com">mitZine / OPENWIDE</a></h6>
-					<p class="job_description__body">Authored numerous peer-reviewed feature-length articles</p>
-					<p class="job_description__body">Participated in collaborative editing of mine and others' writing</p>
-					<p class="job_description__body">Managed volunteer writers; kept Editor-in-Chief informed</p>
+					<p>Authored numerous peer-reviewed feature-length articles</p>
+					<p>Participated in collaborative editing of mine and others' writing</p>
+					<p>Managed volunteer writers; kept Editor-in-Chief informed</p>
 					</div><!--
 
 			--></article><!--
 
-		--></div><div class="cell cell--col_1"--><!--
+		--></div><div class="cell cell--col_1"><!--
 
 										--><div class="layout__item one-whole">
 										<h3 class="section__title">school</h3>
 					</div><!--
 
 
-			--></article><article class="job_description"><!--
+			--><article class="job_description"><!--
 
 					--><div class="layout__item one-fifth"></div><!--
 				--><div class="layout__item four-fifths">					
 
 					<h5 class="job_description__title"><a href="http://www.csd.uwo.ca">Computer Science</a></h5>
-					<p class="job_description__body">Studied foundational data structures and algorithms</p>
-					<p class="job_description__body">Worked frequently on team-based semester-long projects</p>
+					<p>Studied foundational data structures and algorithms</p>
+					<p>Worked frequently on team-based semester-long projects</p>
 					</div><!--
 
 			--></article><article class="job_description"><!--
@@ -121,8 +121,8 @@ Description: A Page Template for my resume.
 				--><div class="layout__item four-fifths">
 
 					<h5 class="job_description__title"><a href="http://www.fims.uwo.ca">Media, Information and Technoculture (MIT)</a></h5>
-					<p class="job_description__body">Learned to communicate professionally without expunging myself</p>
-					<p class="job_description__body">Critically analyzed bloody everything</p>				
+					<p>Learned to communicate professionally without expunging myself</p>
+					<p>Critically analyzed bloody everything</p>				
 					</div><!--
 
 				--></article><!--
@@ -179,22 +179,22 @@ Description: A Page Template for my resume.
 			--><article class="job_description"><!--
 
 			--><div class="layout__item two-fifths">
-			<p class="job_description__body">PHP</p>
-			<p class="job_description__body">HTML / Twig</p>
-			<p class="job_description__body">Java</p>
-			<p class="job_description__body">C / C++</p>
-			<p class="job_description__body">git / GitHub</p>
-			<p class="job_description__body">CLIs</p>
-			<p class="job_description__body">etc.</p>
+			<p>PHP</p>
+			<p>HTML / Twig</p>
+			<p>Java</p>
+			<p>C / C++</p>
+			<p>git / GitHub</p>
+			<p>CLIs</p>
+			<p>etc.</p>
 
 			</div><!--
 			--><div class="layout__item three-fifths">
-			<p class="job_description__body">WordPress</p>
-			<p class="job_description__body">CSS / SCSS</p>
-			<p class="job_description__body">JavaScript / jQuery</p>
-			<p class="job_description__body">SQL / Doctrine</p>
-			<p class="job_description__body">Package Managing</p>
-			<p class="job_description__body">MVC Frameworks</p>
+			<p>WordPress</p>
+			<p>CSS / SCSS</p>
+			<p>JavaScript / jQuery</p>
+			<p>SQL / Doctrine</p>
+			<p>Package Managing</p>
+			<p>MVC Frameworks</p>
 			</div><!--
 			--></article><!--
 
@@ -207,11 +207,11 @@ Description: A Page Template for my resume.
 
 			--><div class="layout__item one-whole">
 
-			<p class="job_description__body">construct / defend arguments</p>
-			<p class="job_description__body">construct / maintain software</p>
-			<p class="job_description__body">deliver presentations on either</p>
-			<p class="job_description__body">work as part of a team</p>
-			<p class="job_description__body">identify tech / political problems</p>
+			<p>construct / defend arguments</p>
+			<p>construct / maintain software</p>
+			<p>deliver presentations on either</p>
+			<p>work as part of a team</p>
+			<p>identify tech / political problems</p>
 
 			</div><!--
 

@@ -2701,7 +2701,7 @@ body.page-template-page-cv-php {
     word-spacing: 0; }
     .cv__wrapper .job_description * {
       margin: 0; }
-    .cv__wrapper .job_description .job_description__employer, .cv__wrapper .job_description .job_description__body {
+    .cv__wrapper .job_description p, .cv__wrapper .job_description .job_description__employer {
       font-size: 13px; }
     .cv__wrapper .job_description .job_description__title, .cv__wrapper .job_description .job_description__year {
       font-size: 14.95px;
