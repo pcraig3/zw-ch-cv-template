@@ -39,7 +39,7 @@ Description: A Page Template for my resume.
 
 				--><div class="layout col_1"><!--
 
-		--><div class="cell cell--col_1"--><!--
+		--><div class="cell cell--col_1"><!--
 
 			--><div class="layout__item one-whole">
 
@@ -71,7 +71,7 @@ Description: A Page Template for my resume.
 
 				<span class="job_description__year">2013-14</span>
 					</div><!--
-				--><div class="layout__item four-fifths">					
+				--><div class="layout__item four-fifths">
 
 					<h5 class="job_description__title">Technical Infrastructure Intern</h5>
 					<h6 class="job_description__employer"><a class="pseudo_href" href="http://westernusc.ca">Western University Students’ Council</a></h6>
@@ -108,7 +108,7 @@ Description: A Page Template for my resume.
 			--><article class="job_description"><!--
 
 					--><div class="layout__item one-fifth"></div><!--
-				--><div class="layout__item four-fifths">					
+				--><div class="layout__item four-fifths">
 
 					<h5 class="job_description__title"><a href="http://www.csd.uwo.ca">Computer Science</a></h5>
 					<p>Studied foundational data structures and algorithms</p>
@@ -122,7 +122,7 @@ Description: A Page Template for my resume.
 
 					<h5 class="job_description__title"><a href="http://www.fims.uwo.ca">Media, Information and Technoculture (MIT)</a></h5>
 					<p>Learned to communicate professionally without expunging myself</p>
-					<p>Critically analyzed bloody everything</p>				
+					<p>Critically analyzed bloody everything</p>
 					</div><!--
 
 				--></article><!--
@@ -136,7 +136,7 @@ Description: A Page Template for my resume.
 
 			--><div class="layout col_2"><!--
 
-		--><div class="cell cell--col_2"--><!--
+		--><div class="cell cell--col_2"><!--
 
 		--><div class="layout__item one-whole">
 		<h3 class="section__title color__red">contact</h3>
@@ -149,7 +149,7 @@ Description: A Page Template for my resume.
 					<a class="contact--body" href="https://twitter.com/pcraig3">@pcraig3</a>
 			</div><!--
 
-		--></div><div class="cell cell--col_2"--><!--
+		--></div><div class="cell cell--col_2"><!--
 
 		--><div class="layout__item one-whole">
 		<h3 class="section__title">degree</h3>
@@ -165,12 +165,12 @@ Description: A Page Template for my resume.
 
 					<h5 class="job_description__title">Computer Science & MIT Double Major</h5>
 					<a class="job_description__body" href="http://www.uwo.ca/">Western University</a>
-					<p class="job_description__body">London, Canada</p>
+					<p>London, Canada</p>
 		</div><!--
 
 		--></article><!--
 
-		--></div><div class="cell cell--col_2"--><!--
+		--></div><div class="cell cell--col_2"><!--
 
 		--><div class="layout__item one-whole">
 		<h3 class="section__title">familiar with</h3>
@@ -198,7 +198,7 @@ Description: A Page Template for my resume.
 			</div><!--
 			--></article><!--
 
-		--></div><div class="cell cell--col_2"--><!--
+		--></div><div class="cell cell--col_2"><!--
 
 		--><div class="layout__item one-whole">
 		<h3 class="section__title">able to</h3>
