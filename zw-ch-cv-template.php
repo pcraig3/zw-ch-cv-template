@@ -27,13 +27,3 @@
  * Public-Facing Functionality
  *----------------------------------------------------------------------------*/
 require_once( plugin_dir_path( __FILE__ ) . 'PageTemplateAdder.php');
-
-/*
- * @see : http://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme
- *
-add_action( 'wp_enqueue_scripts', 'zw_ch_cv_enqueue_styles' );
-
-function zw_ch_cv_enqueue_styles() {
-    wp_enqueue_style( 'zw-ch-cv-style', plugins_url( 'style.css', __FILE__ ), array());
-}
-*/
