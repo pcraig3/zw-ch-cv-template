@@ -31,6 +31,18 @@ Description: A Page Template that is my resume.
 						</div>
 						<article class="job_description">
 							<div class="layout__item one-fifth">
+								<span class="job_description__year">2015</span>
+							</div><!--
+							--><div class="layout__item four-fifths">
+								<h5 class="job_description__title">Junior Developer</h5>
+								<h6 class="job_description__employer"><a class="pseudo_href" href="https://digitalmarketplace.blog.gov.uk">Government Digital Service</a></h6>
+								<p>Fixing public-sector procurement without trailing semicolons</p>
+								<p>Code in the open, submit well-documented pull requests</p>
+								<p>Receive code reviews; review others' code</p>
+							</div>
+						</article>
+						<article class="job_description">
+							<div class="layout__item one-fifth">
 								<span class="job_description__year">2014</span>
 							</div><!--
 							--><div class="layout__item four-fifths">
@@ -38,7 +50,6 @@ Description: A Page Template that is my resume.
 								<h6 class="job_description__employer"><a class="pseudo_href" href="http://westernusc.ca">Western University Students’ Council</a></h6>
 								<p>Revitalized the web presence of the student government</p>
 								<p>Prioritized needs based on findings of user research</p>
-								<p>Coded in the open and extensively documented plugins</p>
 								<p>Contributed to open-source projects I relied on</p>
 								<p>Incorporated third-party APIs supplemented with clever data caching</p>
 							</div>
@@ -50,10 +61,9 @@ Description: A Page Template that is my resume.
 							--><div class="layout__item four-fifths">
 								<h5 class="job_description__title">Technical Infrastructure Intern</h5>
 								<h6 class="job_description__employer"><a class="pseudo_href" href="http://westernusc.ca">Western University Students’ Council</a></h6>
-								<p>Installed, configured, and customised a few microsites</p>
-								<p>Wrote a <a href="http://testwestern.ca">quiz application</a> intended to match students to relevant clubs</p>
+								<p>Installed, configured, and customised microsites</p>
+								<p>Wrote a <a href="http://testwestern.ca">web application</a> to match students to relevant clubs</p>
 								<p>Spiked, ultimately recommended against, commissioning an app</p>
-								<p>Frequent Basecamp contributor, <code>git commit</code>-er</p>
 								<p>Worked always to benefit the students of Western University</p>
 							</div>
 						</article>
