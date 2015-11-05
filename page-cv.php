@@ -100,9 +100,9 @@ Description: A Page Template that is my resume.
 						</div><!--
 						--><div class="layout__item two-fifths"></div><!--
 						--><div class="layout__item three-fifths">
-							<a class="contact--body contact--email color__red" href="mailto:paul@pcraig3.ca?subject=Hello%20Paul!">paul@pcraig3.ca</a>
-							<a class="contact--body" href="tel:+447421742811">(+44) 7421742811</a>
-							<a class="contact--body" href="https://twitter.com/pcraig3">@pcraig3</a>
+							<a class="contact--body contact--email color__red" href="mailto:paul@pcraig3.ca?subject=Hello%20Paul!">paul&commat;pcraig3.ca</a>
+							<a class="contact--body" href="tel:+447421742811">(&plus;44) 7421742811</a>
+							<a class="contact--body" href="https://twitter.com/pcraig3">&commat;pcraig3</a>
 						</div><!--
 					--></div>
 					<div class="cell cell--col_2"><!--
@@ -114,7 +114,7 @@ Description: A Page Template that is my resume.
 								<span class="job_description__year">2014</span>
 							</div><!--
 							--><div class="layout__item three-fifths">
-								<h5 class="job_description__title">Computer Science & MIT Double Major</h5>
+								<h5 class="job_description__title">Computer Science &amp; MIT Double Major</h5>
 								<p><a href="http://www.uwo.ca/">Western University</a></p>
 								<p>London, Canada</p>
 							</div>
@@ -130,7 +130,7 @@ Description: A Page Template that is my resume.
 								<p>WordPress</p>
 								<p>git / GitHub</p>
 								<p>Java</p>
-								<p>C / C++</p>
+								<p>C / C&plus;&plus;</p>
 								<p>etc.</p>
 							</div><!--
 							--><div class="layout__item three-fifths">
