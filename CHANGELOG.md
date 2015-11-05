@@ -1,10 +1,18 @@
 ## Changelog
 
+### 1.2.0
+* Put new job in there (not production-ready)
+* Updated contact number
+* Added a silly subtitle
+* Changed HTML indenting and removed most of the `<!--` comments `-->` in the markup
+* Removed old font
+* Add in some HTML entities 
+
 ### 1.1.2
 * Had the CSS filepath wrong >.<  
 
 ### 1.1.1
-* Fixed a small bug with global $post variable
+* Fixed a small bug with global `$post` variable
 * Credited the author of most of the code in this plugin
 
 ### 1.1.0
