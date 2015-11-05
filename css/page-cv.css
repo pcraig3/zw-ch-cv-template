@@ -2670,7 +2670,7 @@ body.page-template-page-cv-php {
   .cv__wrapper .color__red {
     color: #D43B1D; }
   .cv__wrapper .cv__header {
-    padding: 26px 0 130px 0; }
+    padding: 26px 0 156px 0; }
     .cv__wrapper .cv__header * {
       margin: 0;
       line-height: 39px;
@@ -2691,7 +2691,7 @@ body.page-template-page-cv-php {
       border-left: 1px solid #F3F3F3; }
       .cv__wrapper .cell.cell--col_2:first-of-type {
         border-top: 0; }
-      .cv__wrapper .cell.cell--col_2 .job_description .layout__item * {
+      .cv__wrapper .cell.cell--col_2 .job_description .layout__item > * {
         padding-left: 5px; }
   .cv__wrapper .job_description {
     padding-top: 14.95px;
@@ -2703,15 +2703,17 @@ body.page-template-page-cv-php {
       margin: 0; }
     .cv__wrapper .job_description p, .cv__wrapper .job_description .job_description__employer {
       font-size: 13px; }
+    .cv__wrapper .job_description .job_description__year {
+      padding-left: 5px; }
     .cv__wrapper .job_description .job_description__title, .cv__wrapper .job_description .job_description__year {
-      font-size: 14.95px;
-      padding-bottom: 2px; }
+      font-size: 14.95px; }
     .cv__wrapper .job_description .job_description__title, .cv__wrapper .job_description .job_description__employer {
-      padding-bottom: 2px;
       font-family: 'verbcondregular', arial, sans-serif;
       font-weight: 400;
       font-style: normal;
       word-spacing: 0; }
+    .cv__wrapper .job_description .job_description__title, .cv__wrapper .job_description .job_description__year, .cv__wrapper .job_description .job_description__employer {
+      padding-bottom: 2px; }
   .cv__wrapper .contact--body {
     font-size: 14.95px;
     padding-bottom: 2px;

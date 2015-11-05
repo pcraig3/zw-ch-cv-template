@@ -58,7 +58,7 @@ body.page-template-page-cv-php {
 
 	.cv__header {
 
-		padding: ( $cv-base-font-size * 2 ) 0 ( $cv-base-font-size * 10 ) 0;
+		padding: ( $cv-base-font-size * 2 ) 0 ( $cv-base-font-size * 12 ) 0;
 
 		* {
 
@@ -94,7 +94,7 @@ body.page-template-page-cv-php {
 				border-top: 0;
 			}
 
-			.job_description .layout__item * {
+			.job_description .layout__item > * {
 
 				padding-left: 5px;
 			}
@@ -104,7 +104,6 @@ body.page-template-page-cv-php {
 	.job_description {
 
 		padding-top: $cv-base-font-size * 1.15;
-
 		@include Verb-Light;
 
 		* {
@@ -112,17 +111,28 @@ body.page-template-page-cv-php {
 		}
 
 		p, .job_description__employer {
+
 			font-size: $cv-base-font-size;
 		}
 
-		.job_description__title, .job_description__year { 
+		.job_description__year {
+
+			padding-left: 5px;
+		}
+
+		.job_description__title, .job_description__year {
+
 			font-size: $cv-base-font-size * 1.15;
-			padding-bottom: 2px;
 		}
 
 		.job_description__title, .job_description__employer {
-			padding-bottom: 2px;
+
 			@include Verb-Condensed;
+		}
+
+		.job_description__title, .job_description__year, .job_description__employer {
+
+			padding-bottom: 2px;
 		}
 
 	}
