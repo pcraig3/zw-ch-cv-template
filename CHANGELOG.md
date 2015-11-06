@@ -1,5 +1,9 @@
 ## Changelog
 
+### 1.3.0
+* Not ready to go, but now it's responsive.
+* (That's a pretty big win.)
+
 ### 1.2.0
 * Put new job in there (not production-ready)
 * Updated contact number
