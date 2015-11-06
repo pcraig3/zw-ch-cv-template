@@ -2640,6 +2640,11 @@ html {
 body.page-template-page-cv-php {
   background: #F3F3F3; }
 
+.show_on_mobile {
+  display: none; }
+  .show_on_mobile.layout__item {
+    display: none; }
+
 .cv__wrapper {
   max-width: 960px;
   padding: 0 5%;
@@ -2727,6 +2732,17 @@ body.page-template-page-cv-php {
     opacity: .65; }
 
 @media screen and (max-width: 619px) {
+  .not_on_mobile {
+    display: none !important; }
+
+  .show_on_mobile {
+    display: initial; }
+    .show_on_mobile.layout__item {
+      display: inline-block !important; }
+
+  .job_description__year {
+    display: block; }
+
   .cv__wrapper .cell {
     padding: 5px 0 21px 0; }
     .cv__wrapper .cell.cell--col_2 {

@@ -56,7 +56,7 @@ Description: A Page Template that is my resume.
 						</article>
 						<article class="job_description">
 							<div class="layout__item one-fifth">
-								<span class="job_description__year">2013-14</span>
+								<span class="job_description__year">2013-<span class="show_on_mobile">20</span>14</span>
 							</div><!--
 							--><div class="layout__item four-fifths">
 								<h5 class="job_description__title">Technical Infrastructure Intern</h5>
@@ -98,22 +98,22 @@ Description: A Page Template that is my resume.
 						--><div class="layout__item one-whole">
 							<h3 class="section__title color__red">contact</h3>
 						</div><!--
-						--><div class="layout__item two-fifths"></div><!--
-						--><div class="layout__item three-fifths">
+						--><div class="layout__item two-fifths palm-one-fifth"></div><!--
+						--><div class="layout__item three-fifths palm-four-fifths">
 							<a class="contact--body contact--email color__red" href="mailto:paul@pcraig3.ca?subject=Hello%20Paul!">paul&commat;pcraig3.ca</a>
 							<a class="contact--body" href="tel:+447421742811">(&plus;44) 7421742811</a>
 							<a class="contact--body" href="https://twitter.com/pcraig3">&commat;pcraig3</a>
 						</div><!--
-					--></div>
-					<div class="cell cell--col_2"><!--
+					--></div><!--
+					--><div class="cell cell--col_2"><!--
 						--><div class="layout__item one-whole">
 							<h3 class="section__title">degree</h3>
 						</div>
 						<article class="job_description">
-							<div class="layout__item two-fifths">
+							<div class="layout__item two-fifths palm-one-fifth">
 								<span class="job_description__year">2014</span>
 							</div><!--
-							--><div class="layout__item three-fifths">
+							--><div class="layout__item three-fifths palm-four-fifths">
 								<h5 class="job_description__title">Computer Science &amp; MIT Double Major</h5>
 								<p><a href="http://www.uwo.ca/">Western University</a></p>
 								<p>London, Canada</p>
@@ -125,20 +125,23 @@ Description: A Page Template that is my resume.
 							<h3 class="section__title">familiar with</h3>
 						</div>
 						<article class="job_description">
-							<div class="layout__item two-fifths">
+							<div class="layout__item palm-one-fifth show_on_mobile"></div><!--
+							--><div class="layout__item two-fifths palm-four-fifths">
 								<p>Python</p>
 								<p>WordPress</p>
 								<p>git / GitHub</p>
 								<p>Java</p>
 								<p>C / C&plus;&plus;</p>
-								<p>etc.</p>
+								<p class="not_on_mobile">etc.</p>
 							</div><!--
-							--><div class="layout__item three-fifths">
+							--><div class="layout__item palm-one-fifth show_on_mobile"></div><!--
+							--><div class="layout__item three-fifths palm-four-fifths">
 								<p>PHP</p>
 								<p>HTML (templating)</p>
 								<p>CSS / SCSS</p>
 								<p>JavaScript / jQuery</p>
 								<p>SQL / Doctrine</p>
+								<p class="show_on_mobile">etc.</p>
 							</div>
 						</article>
 					</div>
@@ -147,7 +150,8 @@ Description: A Page Template that is my resume.
 							<h3 class="section__title">able to</h3>
 						</div>
 						<article class="job_description">
-							<div class="layout__item one-whole">
+							<div class="layout__item palm-one-fifth show_on_mobile"></div><!--
+						--><div class="layout__item one-whole palm-four-fifths">
 								<p>construct / defend arguments</p>
 								<p>construct / maintain software</p>
 								<p>give presentations on either</p>
