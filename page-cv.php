@@ -17,7 +17,7 @@ Description: A Page Template that is my resume.
 <div class="cv__wrapper">
 	<header class="cv__header">
 		<h1 class="cv__name cv__title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Paul Craig</a></h1>
-		<h2 class="cv__description color__red">web wizard crafting transcendent pixel-perfect Xperiences</h2>
+		<h2 class="cv__description color__red">writes good code that does good</h2>
 		<div class="clearer"></div>
 	</header>
 	<!-- end of .cv__header -->
@@ -37,8 +37,9 @@ Description: A Page Template that is my resume.
 								<h5 class="job_description__title">Junior Developer</h5>
 								<h6 class="job_description__employer"><a class="pseudo_href" href="https://digitalmarketplace.blog.gov.uk">Government Digital Service</a></h6>
 								<p>Fixing public-sector procurement without trailing semicolons</p>
-								<p>Code in the open, submit well-documented pull requests</p>
-								<p>Receive code reviews; review others' code</p>
+                                <p>Submit public, well-documented, well-tested pull requests</p>
+                                <p>Receive code reviews; review others' code</p>
+                                <p>Effective member of a focused, collaborative team</p>
 							</div>
 						</article>
 						<article class="job_description">
@@ -48,10 +49,10 @@ Description: A Page Template that is my resume.
 							--><div class="layout__item four-fifths">
 								<h5 class="job_description__title">Web Developer</h5>
 								<h6 class="job_description__employer"><a class="pseudo_href" href="http://westernusc.ca">Western University Students’ Council</a></h6>
-								<p>Revitalized the web presence of the student government</p>
+								<p>Revitalized the main website of the students' council (USC)</p>
 								<p>Prioritized needs based on findings of user research</p>
-								<p>Contributed to open-source projects I relied on</p>
-								<p>Incorporated third-party APIs supplemented with clever data caching</p>
+								<p>Collaborated with open-source developers where necessary</p>
+								<p>Incorporated third-party APIs; introduced a USC API</p>
 							</div>
 						</article>
 						<article class="job_description">
@@ -61,10 +62,10 @@ Description: A Page Template that is my resume.
 							--><div class="layout__item four-fifths">
 								<h5 class="job_description__title">Technical Infrastructure Intern</h5>
 								<h6 class="job_description__employer"><a class="pseudo_href" href="http://westernusc.ca">Western University Students’ Council</a></h6>
-								<p>Installed, configured, and customised microsites</p>
-								<p>Wrote a <a href="http://testwestern.ca">web application</a> to match students to relevant clubs</p>
-								<p>Spiked, ultimately recommended against, commissioning an app</p>
-								<p>Worked always to benefit the students of Western University</p>
+                                <p>Worked on web-centric projects for the student government</p>
+                                <p>Installed, configured, and customised small websites</p>
+								<p>Wrote a <a href="http://testwestern.ca">web application</a> meant to pair students with clubs</p>
+								<p>Researched (and advised against) commissioning an app</p>
 							</div>
 						</article>
 					</div><!--
@@ -97,14 +98,16 @@ Description: A Page Template that is my resume.
 					--><div class="cell cell--col_2"><!--
 						--><div class="layout__item one-whole">
 							<h3 class="section__title color__red">contact</h3>
-						</div><!--
-						--><div class="layout__item two-fifths palm-one-fifth"></div><!--
-						--><div class="layout__item three-fifths palm-four-fifths">
-							<a class="contact--body contact--email color__red" href="mailto:paul@pcraig3.ca?subject=Hello%20Paul!">paul&commat;pcraig3.ca</a>
-							<a class="contact--body" href="tel:+447421742811">(&plus;44) 7421742811</a>
-							<a class="contact--body" href="https://twitter.com/pcraig3">&commat;pcraig3</a>
-						</div><!--
-					--></div><!--
+						</div>
+						<article class="job_description"><!--
+	                        --><div class="layout__item two-fifths palm-one-fifth"></div><!--
+							--><div class="layout__item three-fifths palm-four-fifths">
+								<a class="contact--body contact--email color__red" href="mailto:paul@pcraig3.ca?subject=Hello%20Paul!">paul&commat;pcraig3.ca</a>
+								<a class="contact--body" href="tel:+447421742811">(&plus;44) 7421742811</a>
+								<a class="contact--body" href="https://twitter.com/pcraig3">&commat;pcraig3</a>
+							</div><!--
+					--></article>
+					</div><!--
 					--><div class="cell cell--col_2"><!--
 						--><div class="layout__item one-whole">
 							<h3 class="section__title">degree</h3>
@@ -156,7 +159,7 @@ Description: A Page Template that is my resume.
 								<p>construct / maintain software</p>
 								<p>give presentations on either</p>
 								<p>identify technical / political problems</p>
-								<p>work as part of a team</p>
+								<p>work well within a team</p>
 							</div>
 						</article>
 					</div>
