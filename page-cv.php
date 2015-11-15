@@ -31,7 +31,7 @@ Description: A Page Template that is my resume.
 						</div>
 						<article class="job_description">
 							<div class="layout__item one-fifth">
-								<span class="job_description__year">2015</span>
+								<p class="job_description__year">2015</p>
 							</div><!--
 							--><div class="layout__item four-fifths">
 								<h5 class="job_description__title">Junior Developer</h5>
@@ -43,7 +43,7 @@ Description: A Page Template that is my resume.
 						</article>
 						<article class="job_description">
 							<div class="layout__item one-fifth">
-								<span class="job_description__year">2014</span>
+								<p class="job_description__year">2014</p>
 							</div><!--
 							--><div class="layout__item four-fifths">
 								<h5 class="job_description__title">Web Developer</h5>
@@ -56,7 +56,7 @@ Description: A Page Template that is my resume.
 						</article>
 						<article class="job_description">
 							<div class="layout__item one-fifth">
-								<span class="job_description__year">2013-<span class="show_on_mobile">20</span>14</span>
+								<p class="job_description__year">2013-<span class="show_on_mobile">20</span>14</p>
 							</div><!--
 							--><div class="layout__item four-fifths">
 								<h5 class="job_description__title">Technical Infrastructure Intern</h5>
@@ -111,7 +111,7 @@ Description: A Page Template that is my resume.
 						</div>
 						<article class="job_description">
 							<div class="layout__item two-fifths palm-one-fifth">
-								<span class="job_description__year">2014</span>
+								<p class="job_description__year">2014</p>
 							</div><!--
 							--><div class="layout__item three-fifths palm-four-fifths">
 								<h5 class="job_description__title">Computer Science &amp; MIT Double Major</h5>
