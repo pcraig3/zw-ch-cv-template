@@ -2692,8 +2692,8 @@ body.page-template-page-cv-php {
   .cv__wrapper .cell {
     padding: 5px 0 21px 0; }
     .cv__wrapper .cell.cell--col_2 {
-      border-top: 1px solid #F3F3F3;
-      border-left: 1px solid #F3F3F3; }
+      border-top: 1px dotted #F3F3F3;
+      border-left: 1px dotted #F3F3F3; }
       .cv__wrapper .cell.cell--col_2:first-of-type {
         border-top: 0; }
       .cv__wrapper .cell.cell--col_2 .job_description .layout__item > * {
