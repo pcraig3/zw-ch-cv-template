@@ -23,10 +23,10 @@ Description: A Page Template that is my resume.
 	<!-- end of .cv__header -->
 	<div class="cv">
 		<div class="layout">
-			<div class="layout__item two-thirds palm-one-whole"><!--
-				--><div class="layout col_1"><!--
-					--><div class="cell cell--col_1"><!--
-						--><div class="layout__item one-whole">
+			<div class="layout__item two-thirds palm-one-whole">
+				<div class="layout col_1">
+					<div class="cell cell--col_1">
+						<div class="layout__item one-whole">
 							<h3 class="section__title">work</h3>
 						</div>
 						<article class="job_description">
@@ -68,13 +68,13 @@ Description: A Page Template that is my resume.
 								<p>Researched (and advised against) commissioning an app</p>
 							</div>
 						</article>
-					</div><!--
-					--><div class="cell cell--col_1"><!--
-						--><div class="layout__item one-whole">
+					</div>
+					<div class="cell cell--col_1">
+						<div class="layout__item one-whole">
 							<h3 class="section__title">school</h3>
 						</div>
-						<article class="job_description"><!--
-							--><div class="layout__item one-fifth"></div><!--
+						<article class="job_description">
+							<div class="layout__item one-fifth"></div><!--
 							--><div class="layout__item four-fifths">
 								<h5 class="job_description__title"><a href="http://www.csd.uwo.ca">Computer Science</a></h5>
 								<p>Studied foundational data structures and algorithms</p>
@@ -90,26 +90,26 @@ Description: A Page Template that is my resume.
 								<p>Critically analyzed nearly bloody everything</p>
 							</div>
 						</article>
-					</div><!--
-				--></div><!-- end of .col_1
-			--></div><!-- end of .two-thirds
-			--><div class="layout__item one-third palm-one-whole"><!--
-				--><div class="layout col_2"><!--
-					--><div class="cell cell--col_2"><!--
-						--><div class="layout__item one-whole">
+					</div>
+				</div><!-- end of .col_1 -->
+			</div><!-- end of .two-thirds
+			--><div class="layout__item one-third palm-one-whole">
+                <div class="layout col_2">
+                    <div class="cell cell--col_2">
+                        <div class="layout__item one-whole">
 							<h3 class="section__title color__red">contact</h3>
 						</div>
-						<article class="job_description"><!--
-	                        --><div class="layout__item two-fifths palm-one-fifth"></div><!--
+						<article class="job_description">
+                            <div class="layout__item two-fifths palm-one-fifth"></div><!--
 							--><div class="layout__item three-fifths palm-four-fifths">
 								<a class="contact--body contact--email color__red" href="mailto:paul@pcraig3.ca?subject=Hello%20Paul!">paul&commat;pcraig3.ca</a>
 								<a class="contact--body" href="tel:+447421742811">(&plus;44) 7421742811</a>
 								<a class="contact--body" href="https://twitter.com/pcraig3">&commat;pcraig3</a>
-							</div><!--
-					--></article>
-					</div><!--
-					--><div class="cell cell--col_2"><!--
-						--><div class="layout__item one-whole">
+							</div>
+                        </article>
+					</div>
+                    <div class="cell cell--col_2">
+                        <div class="layout__item one-whole">
 							<h3 class="section__title">degree</h3>
 						</div>
 						<article class="job_description">
@@ -123,8 +123,8 @@ Description: A Page Template that is my resume.
 							</div>
 						</article>
 					</div>
-					<div class="cell cell--col_2"><!--
-						--><div class="layout__item one-whole">
+					<div class="cell cell--col_2">
+                        <div class="layout__item one-whole">
 							<h3 class="section__title">familiar with</h3>
 						</div>
 						<article class="job_description">
@@ -148,8 +148,8 @@ Description: A Page Template that is my resume.
 							</div>
 						</article>
 					</div>
-					<div class="cell cell--col_2"><!--
-						--><div class="layout__item one-whole">
+					<div class="cell cell--col_2">
+                        <div class="layout__item one-whole">
 							<h3 class="section__title">able to</h3>
 						</div>
 						<article class="job_description">
@@ -163,10 +163,10 @@ Description: A Page Template that is my resume.
 							</div>
 						</article>
 					</div>
-				</div><!-- end of .col_2
-			--></div><!-- end of .one-third
-		--></div><!-- end of .layout
-	--></div>
+				</div><!-- end of .col_2 -->
+			</div><!-- end of .one-third -->
+		</div><!-- end of .layout -->
+	</div>
 	<!-- end of .cv -->
 	<footer class="cv__footer">
 		<span class="cv__references">References available on request</span>
