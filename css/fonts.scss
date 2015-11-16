@@ -24,10 +24,10 @@
 
 
 /// Baskerville Italic
-@include font-face(libre_baskervilleitalic, "librebaskerville-italic-webfont", 400, normal); 
+@include font-face(libre_baskervilleitalic, "librebaskerville-italic-webfont", 400, normal);
 
 /// Baskerville Regular
-@include font-face(libre_baskervilleregular, "librebaskerville-regular-webfont", 400, normal); 
+@include font-face(libre_baskervilleregular, "librebaskerville-regular-webfont", 400, normal);
 
 /// Baskerville Bold
 @include font-face(libre_baskervillebold, "librebaskerville-bold-webfont", 400, normal);
@@ -48,21 +48,21 @@
 /// Baskerville Italic
 @mixin Baskerville-Italic {
   font-family: 'libre_baskervilleitalic', times, serif;
-  font-weight: 400; font-style: normal; 
+  font-weight: 400; font-style: normal;
   word-spacing: 0;
 }
 
 /// Baskerville Regular
 @mixin Baskerville-Regular {
   font-family: 'libre_baskervilleregular', times, serif;
-  font-weight: 400; font-style: normal; 
+  font-weight: 400; font-style: normal;
   word-spacing: 0;
 }
 
 /// Baskerville Bold
 @mixin Baskerville-Bold {
   font-family: 'libre_baskervillebold', times, serif;
-  font-weight: 400; font-style: normal; 
+  font-weight: 400; font-style: normal;
   word-spacing: 0;
 }
 
