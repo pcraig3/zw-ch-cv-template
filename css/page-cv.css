@@ -2747,5 +2747,34 @@ body.page-template-page-cv-php {
     padding: 5px 0 21px 0; }
     .cv__wrapper .cell.cell--col_2 {
       border-color: transparent; } }
+@media print {
+  .cv__wrapper .cv__header {
+    padding: 26px 0 210px 0; }
+
+  .cv__wrapper {
+    padding: 0 4%; }
+
+  .cv__wrapper .cv__header .cv__name * {
+    font-size: 39px; }
+
+  .cv__wrapper .cv__header * {
+    font-size: 22px;
+    line-height: 32px; }
+
+  .cv__wrapper .section__title {
+    font-size: 19px; }
+
+  .cv__wrapper .job_description .job_description__title,
+  .cv__wrapper .job_description .job_description__year,
+  .cv__wrapper .contact--body {
+    font-size: 11px; }
+
+  .cv__wrapper .job_description p,
+  .cv__wrapper .job_description .job_description__employer {
+    font-size: 10px; }
+
+  .cv__wrapper a.pseudo_href:after,
+  .cv__wrapper .cv__footer {
+    font-size: 8px; } }
 
 /*# sourceMappingURL=page-cv.css.map */
