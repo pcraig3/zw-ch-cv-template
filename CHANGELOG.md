@@ -1,5 +1,10 @@
 ## Changelog
 
+### 1.4.0
+* Added print stylesheet because what a nightmare the last one was
+* More re-indenting
+* Changed a couple words
+
 ### 1.3.1
 * Aligned years with job titles (they were a tiny bit off)
 * Doubled header size because why not
