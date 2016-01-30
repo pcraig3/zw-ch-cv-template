@@ -1,5 +1,8 @@
 ## Changelog
 
+### 1.4.1
+* Little deletion
+
 ### 1.4.0
 * Added print stylesheet because what a nightmare the last one was
 * More re-indenting
