@@ -34,7 +34,7 @@ Description: A Page Template that is my resume.
                   <p class="job_description__year">2015</p>
               </div><!--
             --><div class="layout__item four-fifths">
-            <h5 class="job_description__title">Junior Developer</h5>
+            <h5 class="job_description__title"><del>Junior</del> Developer</h5>
             <h6 class="job_description__employer"><a class="pseudo_href" href="https://digitalmarketplace.blog.gov.uk">Government Digital Service</a></h6>
             <p>Fixing public-sector procurement without trailing semicolons</p>
             <p>Submit public, well-documented, well-tested pull requests</p>
