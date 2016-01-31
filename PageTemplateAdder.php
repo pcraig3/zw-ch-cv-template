@@ -56,19 +56,18 @@ class PageTemplateAdder {
             array( $this, 'register_project_templates' )
         );
 
+        // Enqueue a custom stylesheet when called
+        add_action(
+            'enqueue_custom_stylesheet',
+            array( $this, 'enqueue_custom_style' ), 10, 1
+        );
 
-        // Add a filter to the template include to determine if the page has our
-        // template assigned and return it's path
+        // Add a filter to the template include to determine if the page has a custom template assigned
+        // If found, enqueue the stylesheet and return the template
         add_filter(
             'template_include',
             array( $this, 'view_project_template')
         );
-
-
-        // Add an action to enqueue styles based on if they exist in the
-        // /css folder with the same name as the template
-        add_action( 'wp_enqueue_scripts',
-        array( $this, 'enqueue_styles') );
 
 
         // Add your templates to this array.
@@ -79,29 +78,28 @@ class PageTemplateAdder {
 
 
     /**
-    * Foreach template, cylce through their filenames and look for corresponding css files with the same filenames.
-    *
-    * @return [type] [description]
-    */
-    public function enqueue_styles() {
+     * Queue up a custom stylesheet, if found, based on a passed in template name.
+     * Assumes that the css file would have the same name as the template.
+     * Ex: for custom template "custom-template.php", enqueue "/css/custom-template.css"
+     *
+     * @param $custom_template [str] name of our custom template
+     */
+    public function enqueue_custom_style( $custom_template ) {
 
-        if (!empty($this->templates)) {
+        if(!isset($this->templates[$custom_template]))
+            return;
 
-            $template_filenames = array_keys($this->templates);
+        //grab the filename of the template, sans the  '.php' suffix
+        $filename = basename($custom_template, '.php');
 
-            foreach ($template_filenames as $template_filename) {
+        $custom_stylesheet = '/css/' . $filename . '.css';
 
-                //grab the filename of the template, sans the  '.php' suffix
-                $filename = basename($template_filename, '.php');
+        if( file_exists( dirname(__FILE__) . $custom_stylesheet ) ) {
 
-                //this is a good idea, except our dev theme is fucked.
-                //if( file_exists( plugins_url( '/css/' . $filename . '.css', __FILE__ ) ) ) {
-
-                wp_enqueue_style($this->plugin_slug . '-' . $filename,
-                    plugins_url('/css/' . $filename . '.css', __FILE__),
-                    array());
-                ///}
-            }
+            wp_enqueue_style(
+                $this->plugin_slug . '-' . $filename,
+                plugins_url($custom_stylesheet, __FILE__),
+                array());
         }
     }
 
@@ -148,19 +146,23 @@ class PageTemplateAdder {
             return $template;
         }
 
-        if (!isset($this->templates[get_post_meta(
-            $post->ID, '_wp_page_template', true
-        )] ) ) {
+        $custom_post_template = get_post_meta( $post->ID, '_wp_page_template', true );
+
+        if (!isset($this->templates[$custom_post_template] ) ) {
 
             return $template;
         }
 
-        $file = plugin_dir_path(__FILE__). get_post_meta(
-            $post->ID, '_wp_page_template', true
-        );
+        // at this point, we've found a custom template
+        $file = plugin_dir_path(__FILE__) . $custom_post_template;
 
         // Just to be safe, we check if the file exist first
         if( file_exists( $file ) ) {
+
+            // Add an action to enqueue stylesheet based on if they exist in the
+            // /css folder with the same name as the template
+            do_action( 'enqueue_custom_stylesheet', $custom_post_template );
+
             return $file;
         }
         else { echo $file; }
