@@ -1,5 +1,9 @@
 ## Changelog
 
+### 1.4.2
+* Custom stylesheet only enqueued on relevant page
+ * Gets rid of a race condition causing a weird CSS bug
+
 ### 1.4.1
 * Little deletion
 
