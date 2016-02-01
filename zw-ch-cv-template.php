@@ -10,7 +10,7 @@
  * @wordpress-plugin
  * Plugin Name:       Zw Ch CV Template
  * Plugin URI:        https://github.com/pcraig3/zw-ch-cv-template
- * Description:       creates a 'CV' page template for Paul Craig.  Only works under very specific conditions
+ * Description:       Creates a 'CV' page template for Paul Craig.  Only works under very specific conditions.
  * Version:           1.4.1
  * Author:            Paul Craig
  * Author URI:        https://profiles.wordpress.org/pcraig3/
