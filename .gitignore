@@ -1,0 +1,7 @@
+# font detrius
+css/fonts/specimen_files
+
+# sass things we don't care about
+.sass-cache
+
+.idea
