@@ -31,7 +31,7 @@ Description: A Page Template that is my resume.
               </div>
               <article class="job_description">
                 <div class="layout__item one-fifth">
-                  <p class="job_description__year">2015</p>
+                  <p class="job_description__year">2015-17</p>
               </div><!--
             --><div class="layout__item four-fifths">
             <h5 class="job_description__title"><del>Junior</del> Developer</h5>
@@ -78,7 +78,7 @@ Description: A Page Template that is my resume.
             --><div class="layout__item four-fifths">
             <h5 class="job_description__title"><a href="http://www.csd.uwo.ca">Computer Science</a></h5>
             <p>Studied foundational data structures and algorithms</p>
-            <p>Worked frequently on team-based semester-long projects</p>
+            <p>Did lots of coding for both individual and team-based projects</p>
             <p>Learned about storing plaintext passwords in a database</p>
           </div>
         </article>
@@ -86,8 +86,8 @@ Description: A Page Template that is my resume.
               <div class="layout__item one-fifth"></div><!--
             --><div class="layout__item four-fifths">
             <h5 class="job_description__title"><a href="http://www.fims.uwo.ca">Media, Information and Technoculture (MIT)</a></h5>
-            <p>Learned to communicate professionally without effacing myself</p>
-            <p>Critically analyzed nearly bloody everything</p>
+            <p>Learned to write essays for receptive audiences</p>
+            <p>Critically analyzed basically everything</p>
           </div>
         </article>
       </div>
@@ -155,8 +155,8 @@ Description: A Page Template that is my resume.
         <article class="job_description">
               <div class="layout__item palm-one-fifth show_on_mobile"></div><!--
             --><div class="layout__item one-whole palm-four-fifths">
-            <p>construct / defend arguments</p>
             <p>construct / maintain software</p>
+            <p>construct / defend arguments</p>
             <p>give presentations on either</p>
             <p>identify technical / political problems</p>
             <p>work well within a team</p>
