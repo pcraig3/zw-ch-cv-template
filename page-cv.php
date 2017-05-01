@@ -131,19 +131,19 @@ Description: A Page Template that is my resume.
               <div class="layout__item palm-one-fifth show_on_mobile"></div><!--
             --><div class="layout__item two-fifths palm-four-fifths">
             <p>Python</p>
-            <p>WordPress</p>
-            <p>git / GitHub</p>
-            <p>Java</p>
-            <p>C / C&plus;&plus;</p>
+            <p>PHP</p>
+            <p>HTML</p>
+            <p>git</p>
+            <p>JavaScript</p>
             <p class="not_on_mobile">etc.</p>
               </div><!--
               --><div class="layout__item palm-one-fifth show_on_mobile"></div><!--
             --><div class="layout__item three-fifths palm-four-fifths">
-            <p>PHP</p>
-            <p>HTML (templating)</p>
-            <p>CSS / SCSS</p>
-            <p>JavaScript / jQuery</p>
-            <p>SQL / Doctrine</p>
+            <p><a href="http://flask.pocoo.org/">Flask</a> / <a href="https://symfony.com/">Symfony</a></p>
+            <p><a href="https://wordpress.org/">WordPress</a></p>
+            <p>CSS / <a href="http://sass-lang.com/">SCSS</a></p>
+            <p><a href="https://jquery.com/">jQuery</a> / <a href="http://gulpjs.com/">gulp</a></p>
+            <p>SQL / <a href="http://www.doctrine-project.org/">Doctrine</a></p>
             <p class="show_on_mobile">etc.</p>
           </div>
         </article>
