@@ -1,5 +1,10 @@
 ## Changelog
 
+### 1.4.3
+* Update some words -- work for an extra two years.
+* Add some links that you can't see
+* Refactor some CSS to make my extremely specific plugin slightly more modular
+
 ### 1.4.2
 * Custom stylesheet only enqueued on relevant page
  * Gets rid of a race condition causing a weird CSS bug
